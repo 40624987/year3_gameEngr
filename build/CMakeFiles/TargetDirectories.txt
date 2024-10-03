@@ -1,3 +1,4 @@
+C:/year3_gameEngr/year3_gameEngr/build/CMakeFiles/copy_resources.dir
 C:/year3_gameEngr/year3_gameEngr/build/CMakeFiles/PRACTICAL_1.dir
 C:/year3_gameEngr/year3_gameEngr/build/CMakeFiles/PRACTICAL_2.dir
 C:/year3_gameEngr/year3_gameEngr/build/CMakeFiles/PACKAGE.dir

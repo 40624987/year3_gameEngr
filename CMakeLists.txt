@@ -15,18 +15,45 @@ SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${OUTPUT_DIRECTORY})
 add_subdirectory("lib/sfml")
 set(SFML_INCS "lib/sfml/include")
 link_directories("${CMAKE_BINARY_DIR}/lib/sfml/lib")
+add_custom_target(copy_resources ALL COMMAND ${CMAKE_COMMAND} 
+  -E copy_directory
+    "${PROJECT_SOURCE_DIR}/res"
+    ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/$<CONFIGURATION>/res
+)
 
-#### Practical 1 ####
+#### Practical 1 (Ping Pong) ####
 file(GLOB_RECURSE SOURCES practical_1/*.cpp practical_1/*.h)
 add_executable(PRACTICAL_1 ${SOURCES})
 target_include_directories(PRACTICAL_1 PRIVATE ${SFML_INCS})
-target_link_libraries(PRACTICAL_1 sfml-graphics)
+set(EXECUTABLES ${EXECUTABLES} PRACTICAL_1)
 
-#### Practical 2 ####
+#### Practical 2 (Space Invaders) ####
 file(GLOB_RECURSE SOURCES practical_2/*.cpp practical_2/*.h)
 add_executable(PRACTICAL_2 ${SOURCES})
 target_include_directories(PRACTICAL_2 PRIVATE ${SFML_INCS})
-target_link_libraries(PRACTICAL_2 sfml-graphics)
+set(EXECUTABLES ${EXECUTABLES} PRACTICAL_2)
 
+
+
+#### Link Dependencies ####
+foreach (exe ${EXECUTABLES})
+  #Set working directory to build dir in visual studio
+  set_target_properties(${exe} PROPERTIES VS_DEBUGGER_WORKING_DIRECTORY
+    ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/$(Configuration)
+  )
+
+  #Add all SFML libs.
+  target_link_libraries(${exe}
+    #lib_maths # We'll make this later.
+    optimized sfml-graphics debug sfml-graphics-d
+    optimized sfml-audio debug sfml-audio-d
+    optimized sfml-window debug sfml-window-d
+    optimized sfml-system debug sfml-system-d
+    optimized sfml-graphics debug sfml-graphics-d
+    optimized sfml-main
+  )
+
+  add_dependencies(${exe} sfml-graphics sfml-audio copy_resources)
+endforeach ()
 
 ## Distinguish Ikem
