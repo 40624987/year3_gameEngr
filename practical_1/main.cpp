@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include <iostream>
 
 using namespace sf;
 using namespace std;
@@ -32,9 +33,10 @@ int player2Score = 0;
 
 // Function declarations
 void Load();
-void Reset(bool player1LostPoint = true);
+void Reset();
 void Update(RenderWindow& window);
 void Render(RenderWindow& window);
+void UpdateScoreText();
 
 void Load() {
    
@@ -48,6 +50,7 @@ void Load() {
     ball.setOrigin(ballRadius, ballRadius); // Set origin to center
     ball.setPosition(Vector2f(gameWidth / 2.f, gameHeight / 2.f)); // Center the ball
     
+    
 
     // Initialize paddle sizes and positions
     paddles[0].setSize(paddleSize);
@@ -55,7 +58,7 @@ void Load() {
 
     //// Load font-face from res dir
     if (!font.loadFromFile("res/fonts/OpenSans-Light.ttf")) {
-    //    // Handle error (e.g., log or exit)
+        cerr << "Error loading font!" << endl; // Error message if font fails to load
         return;
     }
     //// Set text element to use font
@@ -63,11 +66,24 @@ void Load() {
     //// Set the character size to 24 pixels
     text.setCharacterSize(24);
 
+    // Set initial scores to zero
+    player1Score = 0;
+    player2Score = 0;
+
+    // Update Score Text
+    UpdateScoreText();
+
     // Initial positions
-    Reset(true);
+    //Reset(true);
 }
 
-void Reset(bool player1LostPoint) {
+void UpdateScoreText() {
+    text.setString("Score: " + to_string(player1Score) + " - " + to_string(player2Score));
+    text.setPosition((gameWidth * 0.5f) - (text.getLocalBounds().width * 0.5f), 0);
+}
+
+
+void Reset() {
     // Reset paddle positions
     paddles[0].setPosition(Vector2f(paddleOffsetWall, gameHeight / 2.f - paddleSize.y / 2.f));
     paddles[1].setPosition(Vector2f(gameWidth - paddleOffsetWall - paddleSize.x / 2.f, gameHeight / 2.f));
@@ -75,19 +91,9 @@ void Reset(bool player1LostPoint) {
     // Reset Ball Position and Velocity
     ball.setPosition(Vector2f(gameWidth / 2.f, gameHeight / 2.f));
     // Set initial ball velocity based on who served
-    if (player1LostPoint) {
-        ballVelocity = { -initialVelocityX, initialVelocityY }; // Player 2 serves
-        player2Score++; // Increment Player 2's score
-    }
-    else {
-        ballVelocity = { initialVelocityX, initialVelocityY }; // Player 1 serves
-        player1Score++; // Increment Player 1's score
-    }
+   
 
-    // Update Score Text
-    text.setString("Score: " + to_string(player1Score) + " - " + to_string(player2Score));
-    // Keep Score Text Centered
-    text.setPosition((gameWidth * 0.5f) - (text.getLocalBounds().width * 0.5f), 0);
+   
 }
 
 void Update(RenderWindow& window) {
@@ -104,6 +110,7 @@ void Update(RenderWindow& window) {
         }
     }
 
+    //Move the ball
     ball.move(ballVelocity * dt);
 
     // Quit via ESC Key
@@ -141,7 +148,7 @@ void Update(RenderWindow& window) {
         if (pos.y < paddleSize.y / 2.f) {
             paddles[i].setPosition(pos.x, paddleSize.y / 2.f);
         }
-        else if (pos.y > gameHeight - paddleSize.y / 2.f) {
+        else if (pos.y > gameHeight - paddleSize.y / 2.f ) {
             paddles[i].setPosition(pos.x, gameHeight - paddleSize.y / 2.f);
         }
     }
@@ -161,23 +168,29 @@ void Update(RenderWindow& window) {
 
     // Check ball collision with score walls
     if (bx > gameWidth) { // Right wall (Player 1 scores)
-        Reset(true); // Pass true to indicate Player 1 lost the point
+        player2Score++; // Increment Player 2's score
+        UpdateScoreText(); // Update the score display
+        Reset(); // Pass true to indicate Player 1 lost the point
+        ballVelocity = { initialVelocityX, initialVelocityY }; // Player 1 serves next
     }
     else if (bx < 0) { // Left wall (Player 2 scores)
-        Reset(false); // Pass false to indicate Player 2 lost the point
+        player1Score++; // Increment Player 1's score
+        UpdateScoreText(); // Update the score display
+        Reset(); // Pass false to indicate Player 2 lost the point
+        ballVelocity = { -initialVelocityX, initialVelocityY }; // Player 2 serves next
     }
 
     // Check ball collision with paddles
     if (bx < paddleSize.x + paddleOffsetWall &&
-        by > paddles[0].getPosition().y - (paddleSize.y * 0.5f) &&
-        by < paddles[0].getPosition().y + (paddleSize.y * 0.5f)) {
+        by > paddles[0].getPosition().y &&
+        by < paddles[0].getPosition().y + paddleSize.y) {
         // Bounce off left paddle
         ballVelocity.x *= -1; // Reverse X direction
         ball.setPosition(paddleSize.x + paddleOffsetWall + ballRadius, by); // Position the ball outside the paddle
     }
     else if (bx > gameWidth - paddleSize.x - paddleOffsetWall &&
-        by > paddles[1].getPosition().y - (paddleSize.y * 0.5f) &&
-        by < paddles[1].getPosition().y + (paddleSize.y * 0.5f)) {
+        by > paddles[1].getPosition().y &&
+        by < paddles[1].getPosition().y + paddleSize.y) {
         // Bounce off right paddle
         ballVelocity.x *= -1; // Reverse X direction
         ball.setPosition(gameWidth - paddleSize.x - paddleOffsetWall - ballRadius, by); // Position the ball outside the paddle
@@ -195,6 +208,9 @@ void Render(RenderWindow& window) {
 int main() {
     RenderWindow window(VideoMode(gameWidth, gameHeight), "PONG");
     Load();
+    Reset(); // Start the game without any player awarded a point
+    ballVelocity = { initialVelocityX, initialVelocityY }; // Player 1 serves first
+
     while (window.isOpen()) {
         window.clear();
         Update(window);

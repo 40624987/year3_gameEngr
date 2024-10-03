@@ -9,7 +9,7 @@ C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake
 C:/Program Files/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake
 C:/Program Files/CMake/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake
 C:/Program Files/CMake/share/cmake-3.30/Templates/CPackConfig.cmake.in
-C:/year3_gameEngr/lib/sfml/CMakeLists.txt
-C:/year3_gameEngr/lib/sfml/cmake/Config.cmake
-C:/year3_gameEngr/lib/sfml/cmake/SFMLConfig.cmake.in
-C:/year3_gameEngr/lib/sfml/cmake/SFMLConfigDependencies.cmake.in
+C:/year3_gameEngr/year3_gameEngr/lib/sfml/CMakeLists.txt
+C:/year3_gameEngr/year3_gameEngr/lib/sfml/cmake/Config.cmake
+C:/year3_gameEngr/year3_gameEngr/lib/sfml/cmake/SFMLConfig.cmake.in
+C:/year3_gameEngr/year3_gameEngr/lib/sfml/cmake/SFMLConfigDependencies.cmake.in

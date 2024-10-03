@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8585C21F-8404-3002-879C-A122DE4B2792}</ProjectGuid>
+    <ProjectGuid>{0C7AD952-E26E-38E3-8423-F64D2AB1C1F0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\year3_gameEngr\build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\year3_gameEngr\year3_gameEngr\build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-window.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-window-d-2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\year3_gameEngr\build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\year3_gameEngr\year3_gameEngr\build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-window.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-window-2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\year3_gameEngr\build\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\year3_gameEngr\year3_gameEngr\build\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-window.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-window-2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\year3_gameEngr\build\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\year3_gameEngr\year3_gameEngr\build\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-window.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-window-2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
@@ -87,8 +87,8 @@
   <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/year3_gameEngr/lib/sfml/extlibs/headers/glad/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/year3_gameEngr/year3_gameEngr/lib/sfml/extlibs/headers/glad/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -110,10 +110,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";SFML_WINDOW_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -126,8 +126,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/year3_gameEngr/build/lib/sfml/lib/Debug/sfml-window-d.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/year3_gameEngr/build/lib/sfml/lib/Debug/sfml-window.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/Debug/sfml-window-d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/Debug/sfml-window.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -136,8 +136,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/year3_gameEngr/lib/sfml/extlibs/headers/glad/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/year3_gameEngr/year3_gameEngr/lib/sfml/extlibs/headers/glad/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -160,10 +160,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";SFML_WINDOW_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -176,8 +176,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/year3_gameEngr/build/lib/sfml/lib/Release/sfml-window.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/year3_gameEngr/build/lib/sfml/lib/Release/sfml-window.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/Release/sfml-window.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/Release/sfml-window.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -186,8 +186,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/year3_gameEngr/lib/sfml/extlibs/headers/glad/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/year3_gameEngr/year3_gameEngr/lib/sfml/extlibs/headers/glad/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -210,10 +210,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";SFML_WINDOW_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -226,8 +226,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/year3_gameEngr/build/lib/sfml/lib/MinSizeRel/sfml-window.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/year3_gameEngr/build/lib/sfml/lib/MinSizeRel/sfml-window.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/MinSizeRel/sfml-window.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/MinSizeRel/sfml-window.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -236,8 +236,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/year3_gameEngr/lib/sfml/extlibs/headers/glad/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/year3_gameEngr/year3_gameEngr/lib/sfml/extlibs/headers/glad/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -259,10 +259,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";SFML_WINDOW_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\vulkan;C:\year3_gameEngr\year3_gameEngr\lib\sfml\extlibs\headers\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -275,8 +275,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/year3_gameEngr/build/lib/sfml/lib/RelWithDebInfo/sfml-window.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/year3_gameEngr/build/lib/sfml/lib/RelWithDebInfo/sfml-window.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/RelWithDebInfo/sfml-window.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/RelWithDebInfo/sfml-window.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -284,11 +284,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\CMakeLists.txt">
+    <CustomBuild Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/year3_gameEngr/lib/sfml/src/SFML/Window/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/year3_gameEngr/year3_gameEngr/lib/sfml/src/SFML/Window/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr -BC:/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/build/lib/sfml/src/SFML/Window/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr/year3_gameEngr -BC:/year3_gameEngr/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -296,12 +296,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\year3_gameEngr\build\lib\sfml\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\year3_gameEngr\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\year3_gameEngr\year3_gameEngr\build\lib\sfml\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/year3_gameEngr/lib/sfml/src/SFML/Window/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/year3_gameEngr/year3_gameEngr/lib/sfml/src/SFML/Window/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr -BC:/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/build/lib/sfml/src/SFML/Window/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr/year3_gameEngr -BC:/year3_gameEngr/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -309,12 +309,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\year3_gameEngr\build\lib\sfml\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\year3_gameEngr\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\year3_gameEngr\year3_gameEngr\build\lib\sfml\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/year3_gameEngr/lib/sfml/src/SFML/Window/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/year3_gameEngr/year3_gameEngr/lib/sfml/src/SFML/Window/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr -BC:/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/build/lib/sfml/src/SFML/Window/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr/year3_gameEngr -BC:/year3_gameEngr/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -322,12 +322,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\year3_gameEngr\build\lib\sfml\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\year3_gameEngr\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\year3_gameEngr\year3_gameEngr\build\lib\sfml\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/year3_gameEngr/lib/sfml/src/SFML/Window/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/year3_gameEngr/year3_gameEngr/lib/sfml/src/SFML/Window/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr -BC:/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/build/lib/sfml/src/SFML/Window/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr/year3_gameEngr -BC:/year3_gameEngr/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -335,14 +335,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\year3_gameEngr\build\lib\sfml\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\year3_gameEngr\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\year3_gameEngr\year3_gameEngr\build\lib\sfml\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\Clipboard.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Clipboard.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\Clipboard.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Clipboard.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -360,8 +360,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\ClipboardImpl.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Context.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\ClipboardImpl.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Context.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -379,8 +379,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\Context.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Cursor.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\Context.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Cursor.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -398,10 +398,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\Cursor.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\CursorImpl.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\Export.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\GlContext.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\Cursor.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\CursorImpl.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\Export.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\GlContext.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -419,8 +419,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\GlContext.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\GlResource.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\GlContext.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\GlResource.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -438,12 +438,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\GlResource.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\ContextSettings.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\Event.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\InputImpl.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\Joystick.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Joystick.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\GlResource.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\ContextSettings.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\Event.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\InputImpl.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\Joystick.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Joystick.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -461,8 +461,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\JoystickImpl.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\JoystickManager.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\JoystickImpl.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\JoystickManager.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -480,9 +480,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\JoystickManager.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\Keyboard.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Keyboard.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\JoystickManager.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\Keyboard.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Keyboard.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -500,8 +500,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\Mouse.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Mouse.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\Mouse.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Mouse.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -519,8 +519,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\Touch.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Touch.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\Touch.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Touch.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -538,8 +538,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\Sensor.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Sensor.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\Sensor.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Sensor.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -557,8 +557,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\SensorImpl.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\SensorManager.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\SensorImpl.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\SensorManager.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -576,8 +576,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\SensorManager.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\VideoMode.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\SensorManager.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\VideoMode.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -595,9 +595,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\VideoMode.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\VideoModeImpl.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Vulkan.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\VideoMode.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\VideoModeImpl.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Vulkan.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -615,8 +615,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\Vulkan.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Window.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\Vulkan.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Window.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -634,8 +634,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\Window.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\WindowBase.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\Window.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\WindowBase.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -653,9 +653,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\WindowBase.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\WindowHandle.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\WindowImpl.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\WindowBase.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\WindowHandle.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\WindowImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -673,10 +673,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\WindowImpl.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Window\WindowStyle.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\CursorImpl.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\CursorImpl.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\WindowImpl.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Window\WindowStyle.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\CursorImpl.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\CursorImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -694,8 +694,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\ClipboardImpl.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\ClipboardImpl.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\ClipboardImpl.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\ClipboardImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -713,7 +713,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\InputImpl.cpp">
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\InputImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -731,8 +731,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\InputImpl.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\JoystickImpl.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\InputImpl.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\JoystickImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -750,9 +750,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\JoystickImpl.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\SensorImpl.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\SensorImpl.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\JoystickImpl.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\SensorImpl.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\SensorImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -770,7 +770,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\VideoModeImpl.cpp">
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\VideoModeImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -788,7 +788,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\VulkanImplWin32.cpp">
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\VulkanImplWin32.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -806,8 +806,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\VulkanImplWin32.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\WindowImplWin32.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\VulkanImplWin32.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\WindowImplWin32.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -825,8 +825,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\WindowImplWin32.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\WglContext.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\WindowImplWin32.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\WglContext.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -844,18 +844,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\WglContext.hpp" />
-    <ResourceCompile Include="C:\year3_gameEngr\build\lib\sfml\src\SFML\Window\sfml-window.rc" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Window\Win32\WglContext.hpp" />
+    <ResourceCompile Include="C:\year3_gameEngr\year3_gameEngr\build\lib\sfml\src\SFML\Window\sfml-window.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\year3_gameEngr\build\ZERO_CHECK.vcxproj">
-      <Project>{610F177B-5A5B-337B-B0BF-3AB55C425DC4}</Project>
+    <ProjectReference Include="C:\year3_gameEngr\year3_gameEngr\build\ZERO_CHECK.vcxproj">
+      <Project>{B2686024-F192-3E7C-B30F-432D4AB6037E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\year3_gameEngr\build\lib\sfml\src\SFML\System\sfml-system.vcxproj">
-      <Project>{77B60218-823F-3007-8061-0C6A3FAB50F2}</Project>
+    <ProjectReference Include="C:\year3_gameEngr\year3_gameEngr\build\lib\sfml\src\SFML\System\sfml-system.vcxproj">
+      <Project>{A040B376-FF91-3F56-942A-718A9698BA14}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
   </ItemGroup>

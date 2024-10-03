@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\year3_gameEngr\build\CMakeFiles\9669689dfb2c6496ab8a9f283a1f0cbf\PACKAGE_force.rule">
+    <CustomBuild Include="C:\year3_gameEngr\year3_gameEngr\build\CMakeFiles\d3adc8a9f90d7d6f8ffd1a2c5d000723\PACKAGE_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{D28ADA66-5AE5-3F76-A65F-073871D8C480}</UniqueIdentifier>
+      <UniqueIdentifier>{724111A8-5784-3A75-8E27-28C441E1B45B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

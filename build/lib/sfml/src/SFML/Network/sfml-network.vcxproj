@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B0943FF8-CF9C-3BDB-8571-F905617BDF27}</ProjectGuid>
+    <ProjectGuid>{EA4F61AB-0606-3400-B583-6B5AF366171D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\year3_gameEngr\build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\year3_gameEngr\year3_gameEngr\build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-network.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-network-d-2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\year3_gameEngr\build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\year3_gameEngr\year3_gameEngr\build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-network.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-network-2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\year3_gameEngr\build\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\year3_gameEngr\year3_gameEngr\build\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-network.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-network-2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\year3_gameEngr\build\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\year3_gameEngr\year3_gameEngr\build\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-network.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-network-2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
@@ -87,7 +87,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -108,10 +108,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";SFML_NETWORK_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -124,8 +124,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/year3_gameEngr/build/lib/sfml/lib/Debug/sfml-network-d.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/year3_gameEngr/build/lib/sfml/lib/Debug/sfml-network.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/Debug/sfml-network-d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/Debug/sfml-network.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -134,7 +134,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -156,10 +156,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";SFML_NETWORK_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -172,8 +172,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/year3_gameEngr/build/lib/sfml/lib/Release/sfml-network.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/year3_gameEngr/build/lib/sfml/lib/Release/sfml-network.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/Release/sfml-network.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/Release/sfml-network.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -182,7 +182,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -204,10 +204,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";SFML_NETWORK_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -220,8 +220,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/year3_gameEngr/build/lib/sfml/lib/MinSizeRel/sfml-network.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/year3_gameEngr/build/lib/sfml/lib/MinSizeRel/sfml-network.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/MinSizeRel/sfml-network.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/MinSizeRel/sfml-network.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -230,7 +230,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -251,10 +251,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";SFML_NETWORK_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\year3_gameEngr\year3_gameEngr\lib\sfml\include;C:\year3_gameEngr\year3_gameEngr\lib\sfml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -267,8 +267,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/year3_gameEngr/build/lib/sfml/lib/RelWithDebInfo/sfml-network.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/year3_gameEngr/build/lib/sfml/lib/RelWithDebInfo/sfml-network.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/RelWithDebInfo/sfml-network.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/lib/RelWithDebInfo/sfml-network.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -276,11 +276,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\CMakeLists.txt">
+    <CustomBuild Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/year3_gameEngr/lib/sfml/src/SFML/Network/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/year3_gameEngr/year3_gameEngr/lib/sfml/src/SFML/Network/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr -BC:/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/build/lib/sfml/src/SFML/Network/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr/year3_gameEngr -BC:/year3_gameEngr/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/src/SFML/Network/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -288,12 +288,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\year3_gameEngr\build\lib\sfml\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\year3_gameEngr\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\year3_gameEngr\year3_gameEngr\build\lib\sfml\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/year3_gameEngr/lib/sfml/src/SFML/Network/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/year3_gameEngr/year3_gameEngr/lib/sfml/src/SFML/Network/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr -BC:/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/build/lib/sfml/src/SFML/Network/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr/year3_gameEngr -BC:/year3_gameEngr/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/src/SFML/Network/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -301,12 +301,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\year3_gameEngr\build\lib\sfml\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\year3_gameEngr\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\year3_gameEngr\year3_gameEngr\build\lib\sfml\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/year3_gameEngr/lib/sfml/src/SFML/Network/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/year3_gameEngr/year3_gameEngr/lib/sfml/src/SFML/Network/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr -BC:/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/build/lib/sfml/src/SFML/Network/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr/year3_gameEngr -BC:/year3_gameEngr/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/src/SFML/Network/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -314,12 +314,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\year3_gameEngr\build\lib\sfml\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\year3_gameEngr\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\year3_gameEngr\year3_gameEngr\build\lib\sfml\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/year3_gameEngr/lib/sfml/src/SFML/Network/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/year3_gameEngr/year3_gameEngr/lib/sfml/src/SFML/Network/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr -BC:/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/build/lib/sfml/src/SFML/Network/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/year3_gameEngr/year3_gameEngr -BC:/year3_gameEngr/year3_gameEngr/build --check-stamp-file C:/year3_gameEngr/year3_gameEngr/build/lib/sfml/src/SFML/Network/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -327,14 +327,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\year3_gameEngr\build\lib\sfml\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\year3_gameEngr\year3_gameEngr\lib\sfml\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\year3_gameEngr\year3_gameEngr\build\lib\sfml\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Network\Export.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\Ftp.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Network\Export.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\Ftp.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -352,8 +352,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Network\Ftp.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\Http.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Network\Ftp.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\Http.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -371,8 +371,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Network\Http.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\IpAddress.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Network\Http.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\IpAddress.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -390,8 +390,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Network\IpAddress.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\Packet.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Network\IpAddress.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\Packet.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -409,8 +409,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Network\Packet.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\Socket.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Network\Packet.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\Socket.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -428,10 +428,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Network\Socket.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\SocketImpl.hpp" />
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Network\SocketHandle.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\SocketSelector.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Network\Socket.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\SocketImpl.hpp" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Network\SocketHandle.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\SocketSelector.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -449,8 +449,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Network\SocketSelector.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\TcpListener.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Network\SocketSelector.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\TcpListener.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -468,8 +468,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Network\TcpListener.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\TcpSocket.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Network\TcpListener.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\TcpSocket.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -487,8 +487,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Network\TcpSocket.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\UdpSocket.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Network\TcpSocket.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\UdpSocket.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -506,8 +506,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\include\SFML\Network\UdpSocket.hpp" />
-    <ClCompile Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\Win32\SocketImpl.cpp">
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\include\SFML\Network\UdpSocket.hpp" />
+    <ClCompile Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\Win32\SocketImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -525,18 +525,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\year3_gameEngr\lib\sfml\src\SFML\Network\Win32\SocketImpl.hpp" />
-    <ResourceCompile Include="C:\year3_gameEngr\build\lib\sfml\src\SFML\Network\sfml-network.rc" />
+    <ClInclude Include="C:\year3_gameEngr\year3_gameEngr\lib\sfml\src\SFML\Network\Win32\SocketImpl.hpp" />
+    <ResourceCompile Include="C:\year3_gameEngr\year3_gameEngr\build\lib\sfml\src\SFML\Network\sfml-network.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\year3_gameEngr\build\ZERO_CHECK.vcxproj">
-      <Project>{610F177B-5A5B-337B-B0BF-3AB55C425DC4}</Project>
+    <ProjectReference Include="C:\year3_gameEngr\year3_gameEngr\build\ZERO_CHECK.vcxproj">
+      <Project>{B2686024-F192-3E7C-B30F-432D4AB6037E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\year3_gameEngr\build\lib\sfml\src\SFML\System\sfml-system.vcxproj">
-      <Project>{77B60218-823F-3007-8061-0C6A3FAB50F2}</Project>
+    <ProjectReference Include="C:\year3_gameEngr\year3_gameEngr\build\lib\sfml\src\SFML\System\sfml-system.vcxproj">
+      <Project>{A040B376-FF91-3F56-942A-718A9698BA14}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
   </ItemGroup>
