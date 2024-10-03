@@ -22,4 +22,11 @@ add_executable(PRACTICAL_1 ${SOURCES})
 target_include_directories(PRACTICAL_1 PRIVATE ${SFML_INCS})
 target_link_libraries(PRACTICAL_1 sfml-graphics)
 
+#### Practical 2 ####
+file(GLOB_RECURSE SOURCES practical_2/*.cpp practical_2/*.h)
+add_executable(PRACTICAL_2 ${SOURCES})
+target_include_directories(PRACTICAL_2 PRIVATE ${SFML_INCS})
+target_link_libraries(PRACTICAL_2 sfml-graphics)
+
+
 ## Distinguish Ikem
