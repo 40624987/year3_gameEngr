@@ -2,7 +2,7 @@
 C:/Program Files/CMake/share/cmake-3.30/Modules/FindOpenAL.cmake
 C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake
-C:/year3_gameEngr/year3_gameEngr/lib/sfml/cmake/Modules/FindFLAC.cmake
-C:/year3_gameEngr/year3_gameEngr/lib/sfml/cmake/Modules/FindVORBIS.cmake
-C:/year3_gameEngr/year3_gameEngr/lib/sfml/src/SFML/Audio/CMakeLists.txt
-C:/year3_gameEngr/year3_gameEngr/lib/sfml/tools/windows/resource.rc.in
+C:/year3_gameEngr/lib/sfml/cmake/Modules/FindFLAC.cmake
+C:/year3_gameEngr/lib/sfml/cmake/Modules/FindVORBIS.cmake
+C:/year3_gameEngr/lib/sfml/src/SFML/Audio/CMakeLists.txt
+C:/year3_gameEngr/lib/sfml/tools/windows/resource.rc.in
