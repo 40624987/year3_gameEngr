@@ -33,6 +33,10 @@ void Load() {
     float spacingX = 100;   // Horizontal space between invaders
     float spacingY = 80;   // Vertical space between rows
 
+    // Create the player and add it to the ships vector
+    Player* player = new Player();
+    ships.push_back(player);
+
     // Nested loop to create invaders in a grid
     for (int row = 0; row < numRows; ++row) {
         for (int col = 0; col < numCols; ++col) {

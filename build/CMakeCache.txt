@@ -16,7 +16,7 @@
 
 //TRUE to build SFML as shared libraries, FALSE to build it as
 // static libraries
-BUILD_SHARED_LIBS:BOOL=ON
+BUILD_SHARED_LIBS:BOOL=TRUE
 
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lib.exe
@@ -209,10 +209,10 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
 //If set, runtime paths are not added when installing shared libraries,
 // but are added when building.
-CMAKE_SKIP_INSTALL_RPATH:BOOL=OFF
+CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 
 //If set, runtime paths are not added when using shared libraries.
-CMAKE_SKIP_RPATH:BOOL=OFF
+CMAKE_SKIP_RPATH:BOOL=NO
 
 //Flags used by the linker during the creation of static libraries
 // during all build types.
@@ -238,7 +238,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
-CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
+CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Enable to build 7-Zip packages
 CPACK_BINARY_7Z:BOOL=OFF
@@ -313,51 +313,51 @@ OPENGL_glu_LIBRARY:STRING=glu32
 SFML_BINARY_DIR:STATIC=C:/year3_gameEngr/build/lib/sfml
 
 //TRUE to build SFML's Audio module.
-SFML_BUILD_AUDIO:BOOL=ON
+SFML_BUILD_AUDIO:BOOL=TRUE
 
 //TRUE to generate the API documentation, FALSE to ignore it
-SFML_BUILD_DOC:BOOL=OFF
+SFML_BUILD_DOC:BOOL=FALSE
 
 //TRUE to build the SFML examples, FALSE to ignore them
-SFML_BUILD_EXAMPLES:BOOL=OFF
+SFML_BUILD_EXAMPLES:BOOL=FALSE
 
 //TRUE to build SFML's Graphics module.
-SFML_BUILD_GRAPHICS:BOOL=ON
+SFML_BUILD_GRAPHICS:BOOL=TRUE
 
 //TRUE to build SFML's Network module.
-SFML_BUILD_NETWORK:BOOL=ON
+SFML_BUILD_NETWORK:BOOL=TRUE
 
 //TRUE to build the SFML test suite, FALSE to ignore it
-SFML_BUILD_TEST_SUITE:BOOL=OFF
+SFML_BUILD_TEST_SUITE:BOOL=FALSE
 
 //TRUE to build SFML's Window module. This setting is ignored,
 // if the graphics module is built.
-SFML_BUILD_WINDOW:BOOL=ON
+SFML_BUILD_WINDOW:BOOL=TRUE
 
 //True to generate PDB debug symbols, FALSE otherwise. Requires
 // CMake 3.1.
-SFML_GENERATE_PDB:BOOL=ON
+SFML_GENERATE_PDB:BOOL=TRUE
 
 //TRUE to automatically install pkg-config files so other projects
 // can find SFML
-SFML_INSTALL_PKGCONFIG_FILES:BOOL=OFF
+SFML_INSTALL_PKGCONFIG_FILES:BOOL=FALSE
 
 //Value Computed by CMake
 SFML_IS_TOP_LEVEL:STATIC=OFF
 
 //TRUE to use an OpenGL ES implementation, FALSE to use a desktop
 // OpenGL implementation
-SFML_OPENGL_ES:BOOL=OFF
+SFML_OPENGL_ES:BOOL=0
 
 //Value Computed by CMake
 SFML_SOURCE_DIR:STATIC=C:/year3_gameEngr/lib/sfml
 
 //TRUE to statically link to the standard libraries, FALSE to use
 // them as DLLs
-SFML_USE_STATIC_STD_LIBS:BOOL=OFF
+SFML_USE_STATIC_STD_LIBS:BOOL=FALSE
 
 //TRUE to use system dependencies, FALSE to use the bundled ones.
-SFML_USE_SYSTEM_DEPS:BOOL=OFF
+SFML_USE_SYSTEM_DEPS:BOOL=FALSE
 
 //Path to a library.
 VORBISENC_LIBRARY:FILEPATH=C:/year3_gameEngr/lib/sfml/extlibs/libs-msvc-universal/x64/vorbisenc.lib

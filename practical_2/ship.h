@@ -14,6 +14,9 @@ public:
     virtual ~Ship() = 0;
     //Update, virtual so can be overridden, but not pure virtual
     virtual void Update(const float& dt);
+
+    // Virtual function to move down, only implemented by Invader
+    virtual void MoveDown() {}
 };
 
 class Invader : public Ship {
@@ -23,6 +26,9 @@ public:
     Invader(sf::IntRect ir, sf::Vector2f pos);
     Invader();
     void Update(const float& dt) override;
+
+    // Implement MoveDown for Invader
+    void MoveDown() override;
 };
 
 class Player : public Ship {

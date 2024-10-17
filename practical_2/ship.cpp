@@ -34,10 +34,14 @@ void Invader::Update(const float& dt) {
 	if ((direction && getPosition().x > gameWidth - 16) ||
 		(!direction && getPosition().x < 16)) {
 		direction = !direction;
-		for (int i = 0; i < ships.size(); ++i) {
-			ships[i]->move(Vector2f(0.0f, 24.0f));
+		for (auto& s : ships) {
+			s->MoveDown();
 		}
 	}
+}
+
+void Invader::MoveDown() {
+	move(Vector2f(0.0f, 24.0f));
 }
 
 Player::Player() : Ship(IntRect(Vector2i(160, 32), Vector2i(32, 32))) {
@@ -46,8 +50,14 @@ Player::Player() : Ship(IntRect(Vector2i(160, 32), Vector2i(32, 32))) {
 
 void Player::Update(const float& dt) {
 	Ship::Update(dt);
-	//Move left
-	//...
-		//Move Right
-		//...
+
+	// Move left
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left) && getPosition().x > 16.f) {
+		move(-200.f * dt, 0.f); // Move left with a speed of 200 units per second
+	}
+
+	// Move right
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right) && getPosition().x < gameWidth - 16.f) {
+		move(200.f * dt, 0.f); // Move right with a speed of 200 units per second
+	}
 }
